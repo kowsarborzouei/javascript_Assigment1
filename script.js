@@ -48,29 +48,29 @@ console.log(baze(10,30))
 
 console.log("hard code")
 
-function isHard(n){
-        let strNum =n.toString();
-        let m = strNum.length;
-        for(let i=0;i < m;i++){
-            if(!isPrime(Number(strNum.substring(0,m-i)))){
-                return false;
-            }
-        }
-        return true;
-}
+// function isHard(n){
+//         let strNum =n.toString();
+//         let m = strNum.length;
+//         for(let i=0;i < m;i++){
+//             if(!isPrime(Number(strNum.substring(0,m-i)))){
+//                 return false;
+//             }
+//         }
+//         return true;
+// }
+//
+// function hardcode(n){
+//         for ( let i=10**(n-1);i<10**n;i++){
+//             if (hardcode(i)){
+//                 console.log(i)
+//             }
+//         }
+// }
+//
+// console.log(hardcode(3))
 
-function hardcode(n){
-        for ( let i=10**(n-1);i<10**n;i++){
-            if (hardcode(i)){
-                console.log(i)
-            }
-        }
-}
 
-console.log(hardcode(3))
-
-
-console.log("FizzBuzz")
+/*console.log("FizzBuzz")
 const fizzbuzz=(num)=>{
         if(!(num%3)){
             console.log(num,'fizz')
@@ -82,4 +82,11 @@ const fizzbuzz=(num)=>{
             console.log(num)
         }
 }
+fizzbuzz(15)*/
 
+console.log("max,min")
+function max(a,b){
+console.log(Math.max(a,b))
+}
+
+max(5,70)
