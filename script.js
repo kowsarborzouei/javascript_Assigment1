@@ -70,19 +70,19 @@ console.log("hard code")
 // console.log(hardcode(3))
 
 
-/*console.log("FizzBuzz")
+console.log("FizzBuzz")
 const fizzbuzz=(num)=>{
-        if(!(num%3)){
-            console.log(num,'fizz')
+        if(!(num%3) && !(num%5)){
+            console.log(num,'fizzbuzz')
         }else if(!(num%5)) {
             console.log(num, 'buzz')
-        }else if(!(num%3) && !(num%5)){
+        }else if(!(num% 3)){
             console.log(num,'fizzbuzz')
         }else {
             console.log(num)
         }
 }
-fizzbuzz(15)*/
+fizzbuzz(15)
 
 console.log("max,min")
 function max(a,b){
